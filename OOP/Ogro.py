@@ -1,8 +1,8 @@
 from Enemigo import *
 
-class Ogro(Enemigo):
-    def __init__(self, puntos_energia=20, ataque=3):
-        super().__init__(tipo_enemigo='Ogro', puntos_energia=puntos_energia, ataque=ataque)
+class ogro(Enemigo):
+    def __init__(self, punto_energia=20, ataque=3):
+        super().__init__(tipo_enemigo='Ogro', punto_energia=punto_energia, ataque=ataque)
 
-    def hablas(self):
-        print("Ogro aplasta todo!!")
+    def habla(self):
+        print("Ogro aplasta todo!!!")
