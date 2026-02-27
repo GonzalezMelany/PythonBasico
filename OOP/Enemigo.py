@@ -1,4 +1,4 @@
-class Enemigo_:
+class Enemigo:
     tipo_enemigo: str
     puntos_energia: int = 10
     ataque = 1
